@@ -1,0 +1,10 @@
+github上已经有repository 和master分支
+本地创建了maven项目，准备和远程的repository 的master 绑定到一起。 操作方法
+
+本地maven项目，
+git init #初始本项目为git库
+git remote add origin <git url>  #添加git url为远程的origin
+git add .  #本地改动点 add到缓存
+git commit -m 'commit modify' # 添加备注
+git pull #和远端拉起
+git push --set-upstream origin   #推送到
